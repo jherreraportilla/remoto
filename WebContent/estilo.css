@@ -1,0 +1,85 @@
+@charset "ISO-8859-1";
+.b1 {
+	background-color: #E1F59C;
+}
+.b2 {
+	background-color: #C5CAE9;
+}
+h1 {
+	font-family: "arial";
+	text-align: center;
+	text-decoration: underline;
+}
+h2 {
+	text-align: center;
+	text-decoration: underline;
+	font-family: "arial";
+	margin-top:1%;
+}
+h3 {
+	font-family: "arial";
+	margin-left: 20px;
+}
+.hijo {
+	width: 20%;
+	border-radius: 25px;
+  	border: 2px solid #212121;
+  	background-color: #3F51B5;
+  	
+
+}
+  	
+.padre {
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+} 	
+
+
+*{
+	box-sizing:border-box;
+}
+
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	margin-top: 5%;
+	background-color:#ccc;
+	
+	
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:100%;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+	background-color: #E29355;
+}
+
